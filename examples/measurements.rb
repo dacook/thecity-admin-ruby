@@ -26,7 +26,7 @@ end
 
 # The next line is the same as: TheCity::MetricMeasurementList.new({:metric_id => metric_list[0].id})
 measurement_list = metric_list[0].measurements 
-if metric_list.empty?
+if measurement_list.empty?
   puts "No measurements in list"
 else
   puts "Measurements: #{measurement_list.count}"
